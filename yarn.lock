@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@api3/airnode-protocol-v1@^2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@api3/airnode-protocol-v1/-/airnode-protocol-v1-2.8.0.tgz#19a755bf0dfb127edd362282b09b9ff51409e626"
+  integrity sha512-QmDaFvD8U3CYuYqpKP7au7htr1fIW5s6YzoAfduDqh6z6jqFWUHd4wd3m0BYu715SZpu5xSa0lsYpfnPhxHpIg==
+  dependencies:
+    "@openzeppelin/contracts" "4.8.2"
+
+"@api3/contracts@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-0.10.0.tgz#1b2bae4a77c8cf5b9ca15a6ac06b3b467a86d53f"
+  integrity sha512-AtkicTs2GmmN1qerr8K28q+ceLOGbFebMQd82sy0/h5MKBM431MyE6xB0ZseNa3Hg7bHGIo31ZOgQ6at+eI40g==
+  dependencies:
+    "@api3/airnode-protocol-v1" "^2.8.0"
+    ethers "^5.4.7"
+
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@balena/dockerignore/-/dockerignore-1.0.2.tgz#9ffe4726915251e8eb69f44ef3547e0da2c03e0d"
@@ -692,6 +707,11 @@
     semver "^6.3.0"
     table "^6.8.0"
     undici "^5.14.0"
+
+"@openzeppelin/contracts@4.8.2":
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.2.tgz#d815ade0027b50beb9bcca67143c6bcc3e3923d6"
+  integrity sha512-kEUOgPQszC0fSYWpbh2kT94ltOJwj1qfT2DWo+zVttmGmf97JZ99LspePNaeeaLhCImaHVeBbjaQFZQn7+Zc5g==
 
 "@scure/base@~1.1.0":
   version "1.1.1"
@@ -1642,7 +1662,7 @@ ethereumjs-util@^6.0.0, ethereumjs-util@^6.2.1:
     ethjs-util "0.1.6"
     rlp "^2.2.3"
 
-ethers@^5.7.1, ethers@^5.7.2:
+ethers@^5.4.7, ethers@^5.7.1, ethers@^5.7.2:
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-5.7.2.tgz#3a7deeabbb8c030d4126b24f84e525466145872e"
   integrity sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg==
